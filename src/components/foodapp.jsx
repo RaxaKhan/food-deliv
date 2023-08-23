@@ -174,7 +174,7 @@ function Foodapp() {
               alt="Download"
               className="w-full bg-cover hidden sm:block"
             />
-            <div className="absolute mt-5 text-center w-full sm:top-40 py-20 sm:mt-0 sm:py-0 tracking-widest">
+            <div className="absolute mt-5 text-center w-full sm:top-40 py-20 sm:-mt-28 lg:mt-0 sm:py-0 tracking-widest">
               <div className="mb-32">
                 <h1 className="text-4xl my-2 px-10 font-bold sm:text-4xl font-sans">
                   Download the app now.
