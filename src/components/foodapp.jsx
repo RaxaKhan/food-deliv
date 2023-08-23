@@ -24,13 +24,33 @@ function Foodapp() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-6 h-6 m-8 sm:hidden hover:border "
+          class={`w-6 h-6  m-8 sm:hidden hover:border ${
+            navOpen ? "hidden" : "block"
+          }`}
           onClick={toggle}
         >
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
             d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class={`w-6 h-6  m-8 sm:hidden hover:border ${
+            navOpen ? "block" : "hidden"
+          }`}
+          onClick={toggle}
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
           />
         </svg>
 
@@ -105,10 +125,10 @@ function Foodapp() {
             </h1>
             <p>Download the Bella Onojes food app now on</p>
             <br />
-            <button className="bg-orange-600 p-3 px-8 mx-20 text-xl rounded-3xl text-white">
+            <button className="bg-orange-600 p-3 px-8 mx-20 text-xl rounded-3xl text-white hover:bg-transparent hover:border transition duration-500 ease-in-out">
               <b>Playstore</b>
             </button>
-            <button className="bg-transparent border mx-20 border-orange-600 mt-3 p-3 px-8 text-xl rounded-3xl text-orange-600 sm:text-white sm:border-white">
+            <button className="bg-transparent border mx-20 border-orange-600 mt-3 p-3 px-8 text-xl rounded-3xl text-orange-600 sm:text-white sm:border-white hover:bg-orange-600 hover:border-0 transition duration-500 ease-in-out">
               <b>Appstore</b>
             </button>
           </div>
@@ -184,10 +204,10 @@ function Foodapp() {
                   experience now
                 </p>
                 <br />
-                <button className="bg-orange-600 p-3 px-8 mx-5 text-xl rounded-3xl text-white">
+                <button className="bg-orange-600 p-3 px-8 mx-5 text-xl rounded-3xl text-white hover:bg-transparent hover:border transition duration-500 ease-in-out">
                   <b>Playstore</b>
                 </button>
-                <button className="bg-transparent border mx-5 border-orange-600 mt-3 p-3 px-8 text-xl rounded-3xl text-orange-600 sm:text-white sm:border-white">
+                <button className="bg-transparent border mx-5 border-orange-600 mt-3 p-3 px-8 text-xl rounded-3xl text-orange-600 sm:text-white sm:border-white hover:bg-orange-600 hover:border-0 transition duration-500 ease-in-out">
                   <b>Appstore</b>
                 </button>
               </div>
@@ -200,7 +220,7 @@ function Foodapp() {
               />
               <div className="flex  my-auto justify-evenly mt-52 sm:mt-16">
                 <svg
-                  className=" mx-3 cursor-pointer hover:fill-blue-700 "
+                  className=" mx-3 cursor-pointer hover:fill-blue-700 transition duration-500 ease-in-out "
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
                   y="0px"
@@ -212,7 +232,7 @@ function Foodapp() {
                   <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M37,19h-2c-2.14,0-3,0.5-3,2 v3h5l-1,5h-4v15h-5V29h-4v-5h4v-3c0-4,2-7,6-7c2.9,0,4,1,4,1V19z"></path>
                 </svg>
                 <svg
-                  className=" mx-3 cursor-pointer hover:fill-pink-500 "
+                  className=" mx-3 cursor-pointer hover:fill-pink-500 transition duration-500 ease-in-out "
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
                   y="0px"
@@ -224,7 +244,7 @@ function Foodapp() {
                   <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path>
                 </svg>
                 <svg
-                  className=" mx-3 cursor-pointer hover:fill-blue-400 "
+                  className=" mx-3 cursor-pointer hover:fill-blue-400  transition duration-500 ease-in-out"
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
                   y="0px"
