@@ -125,10 +125,10 @@ function Foodapp() {
             </h1>
             <p>Download the Bella Onojes food app now on</p>
             <br />
-            <button className="bg-orange-600 p-3 px-8 mx-20 text-xl rounded-3xl text-white hover:bg-transparent hover:border transition duration-500 ease-in-out">
+            <button className="bg-orange-600 p-3 px-8 mx-20 text-xl rounded-3xl text-white hover:bg-transparent hover:border hover:text-orange-600 sm:hover:text-white hover:border-orange-600 sm:hover:border-white transition duration-500 ease-in-out">
               <b>Playstore</b>
             </button>
-            <button className="bg-transparent border mx-20 border-orange-600 mt-3 p-3 px-8 text-xl rounded-3xl text-orange-600 sm:text-white sm:border-white hover:bg-orange-600 hover:border-0 transition duration-500 ease-in-out">
+            <button className="bg-transparent mx-20 border-orange-600 mt-3 p-3 px-8 text-xl rounded-3xl text-orange-600 sm:text-white sm:border-white hover:text-white hover:bg-orange-600 border sm:hover:border-0 transition duration-500 ease-in-out">
               <b>Appstore</b>
             </button>
           </div>
@@ -204,10 +204,10 @@ function Foodapp() {
                   experience now
                 </p>
                 <br />
-                <button className="bg-orange-600 p-3 px-8 mx-5 text-xl rounded-3xl text-white hover:bg-transparent hover:border transition duration-500 ease-in-out">
+                <button className="bg-orange-600 p-3 px-8 mx-5 text-xl rounded-3xl text-white sm:hover:bg-transparent border border-orange-600 sm:hover:border-white hover:bg-transparent hover:text-orange-600 sm:hover:text-white transition duration-500 ease-in-out ">
                   <b>Playstore</b>
                 </button>
-                <button className="bg-transparent border mx-5 border-orange-600 mt-3 p-3 px-8 text-xl rounded-3xl text-orange-600 sm:text-white sm:border-white hover:bg-orange-600 hover:border-0 transition duration-500 ease-in-out">
+                <button className="bg-transparent border mx-5 border-orange-600 mt-3 p-3 px-8 text-xl rounded-3xl text-orange-600 sm:text-white sm:border-white hover:text-white hover:bg-orange-600 hover:border-0 transition duration-500 ease-in-out">
                   <b>Appstore</b>
                 </button>
               </div>
