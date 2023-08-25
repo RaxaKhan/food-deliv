@@ -1,10 +1,10 @@
-import Civil from "./components/civil";
+import Foodapp from "./components/foodapp";
 
 
 function App() {
   return (
     <div>
-      <Civil/>
+      <Foodapp/>
     </div>
   );
 }
