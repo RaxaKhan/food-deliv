@@ -257,8 +257,7 @@ function Foodapp() {
                 </svg>
               </div>
               <h1 className="text-black my-10 sm:mt-16">
-                All rights reserved Copyright 2023. <br /> Designed By{" "}
-                <strong>Huzaifa Qaiser.</strong>
+                All rights reserved Copyright 2024.
               </h1>
             </div>
           </div>
